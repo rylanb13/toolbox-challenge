@@ -37,7 +37,7 @@ $(document).ready(function() {
 
         img = $(document.createElement('img'));
         img.attr({
-            src: tile.src,
+            src: 'img/tile-back.png',
             alt: 'image of tile ' + tile.tileNum
         });
         img.data('tile', tile);
@@ -56,8 +56,8 @@ $(document).ready(function() {
             }
             tile.flipped = !tile.flipped;
             img.fadeIn(100);
-        }); //after fadeOut
-    }); //on click of gameboard images
+        }); // after fadeOut
+    }); // on click of gameboard images
 
     var startTime = _.now();
     var timer = window.setInterval(function(){

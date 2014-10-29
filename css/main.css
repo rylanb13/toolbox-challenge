@@ -2,5 +2,6 @@
 #game-board img {
     width: 150px;
     height: 150px;
+    padding-right: 0.5em;
 
 }
